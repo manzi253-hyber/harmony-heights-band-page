@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Official webpage of Harmony Heights, featuring our latest music, tour dates, and exclusive content for our fans.">
+  <title>Harmony Heights: Feel the Music</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Harmony Heights home">HARMONY<span class="brand-mark">/</span>HEIGHTS</a>
+    <nav class="nav-links" aria-label="Primary navigation">
+      <a href="#band">The band</a><a href="#listen">Listen</a><a href="#shows">Shows</a><a href="#contact">Contact</a>
+    </nav>
+    <div class="header-tools">
+      <button class="icon-button theme-button" type="button" aria-label="Use light mode" aria-pressed="false">☼</button>
+      <button class="menu-button" type="button" aria-label="Open menu" aria-expanded="false">≡</button>
+    </div>
+  </header>
+  <main id="main-content">
+    <section class="hero" id="top">
+      <div class="hero-copy"><h1>Feel the <span>frequency.</span></h1><p class="hero-intro">We are Harmony Heights, a band that blends genres to create unique sounds. Our journey through music has been incredible, and we're excited to share it with you.</p><div class="hero-actions"><a class="button" href="#listen">Play the latest <span aria-hidden="true">↗</span></a><a class="button secondary" href="#shows">See live dates</a></div></div>
+      <div class="hero-art" aria-label="Harmony Heights performing together"><img src="https://edube.org/uploads/media/default/0001/04/band-photo.jpg" alt="Harmony Heights Band Photo"></div>
+    </section>
+    <div class="ticker" aria-label="Harmony Heights announcement"><div class="ticker-track">NEW TRACKS OUT NOW&nbsp;&nbsp;&nbsp; / &nbsp;&nbsp;&nbsp;NEXT STOP: ORLANDO&nbsp;&nbsp;&nbsp; / &nbsp;&nbsp;&nbsp;NEW TRACKS OUT NOW&nbsp;&nbsp;&nbsp; / &nbsp;&nbsp;&nbsp;NEXT STOP: ORLANDO&nbsp;&nbsp;&nbsp; / &nbsp;&nbsp;&nbsp;</div></div>
+    <section class="section reveal" id="band"><div class="section-header"><div><p class="section-kicker">Meet the noise makers</p><h2>Four minds. One pulse.</h2></div><p class="section-note">From intimate rooms to festival lights, we bring every genre we love into the same room.</p></div><div class="members-grid">
+      <figure class="member"><img src="https://edube.org/uploads/media/default/0001/04/member1-amy.jpg" alt="Harmony Heights Vocals/Sampling: Amy Duncan"><figcaption><strong>Amy Duncan</strong><span>Vocals / Sampling</span></figcaption></figure>
+      <figure class="member"><img src="https://edube.org/uploads/media/default/0001/04/member2-john.jpg" alt="Harmony Heights Bass/Guitars: John Smith"><figcaption><strong>John Smith</strong><span>Bass / Guitars</span></figcaption></figure>
+      <figure class="member"><img src="https://edube.org/uploads/media/default/0001/04/member3-trevor.jpg" alt="Harmony Heights Drums: Trevor G."><figcaption><strong>Trevor G.</strong><span>Drums</span></figcaption></figure>
+    </div></section>
+    <section class="media-section" id="listen"><div class="section-inner reveal"><div class="section-header"><div><p class="section-kicker">Turn it up</p><h2>Hear the whole spectrum.</h2></div><p class="section-note">Press play. Let the edges blur.</p></div><div class="media-grid">
+      <div class="media-block"><h3>Latest track / 01</h3><audio controls><source src="https://edube.org/uploads/media/default/0001/04/track1.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio></div>
+      <div class="media-block video-block"><h3>Live from the Heights</h3><video controls poster="https://edube.org/uploads/media/default/0001/04/band-photo.jpg"><source src="https://edube.org/uploads/media/default/0001/04/performance1.mp4" type="video/mp4">Your browser does not support the video element.</video></div>
+    </div></div></section>
+    <section class="section reveal" id="shows"><div class="section-header"><div><p class="section-kicker">Meet us in the room</p><h2>Upcoming tour dates.</h2></div><p class="section-note">Tickets are limited. Bring a friend who likes loud music.</p></div><div class="dates-grid">
+      <div class="date-row"><time datetime="2029-03-12">Mar 12, 2029</time><strong>Orlando, FL</strong><a href="https://example.com/purchase-tickets-harmony-heights-orlando" target="_blank" rel="noopener noreferrer">Get tickets ↗</a></div>
+      <div class="date-row"><time datetime="2029-03-14">Mar 14, 2029</time><strong>Salt Lake City, UT</strong><a href="https://example.com/purchase-tickets-harmony-heights-slc" target="_blank" rel="noopener noreferrer">Get tickets ↗</a></div>
+    </div></section>
+    <section class="contact-section" id="contact"><div class="contact-inner reveal"><div class="contact-copy"><p class="section-kicker">Stay in the loop</p><h2>Come say hey.</h2><p class="section-note">Stay updated with our latest news and releases. For bookings, press, or just a good story, send us a note.</p><div class="socials"><a href="https://www.example.com/faceblock/hh" target="_blank" rel="noopener noreferrer">Faceblock</a><a href="https://www.example.com/instagrump/hh" target="_blank" rel="noopener noreferrer">Instagrump</a><a href="https://www.example.com/twotter/hh" target="_blank" rel="noopener noreferrer">Twotter</a></div></div>
+      <form class="contact-form" id="contact-form"><div class="field"><label for="name">Name</label><input type="text" id="name" name="name" autocomplete="name" required></div><div class="field"><label for="email">Email</label><input type="email" id="email" name="email" autocomplete="email" required></div><div class="field"><label for="subject">Subject</label><input type="text" id="subject" name="subject" required></div><div class="field"><label for="message">Message</label><textarea id="message" name="message" required></textarea></div><div><button class="button" type="submit">Send message <span aria-hidden="true">↗</span></button><p class="form-status" role="status" aria-live="polite"></p></div></form>
+    </div></section>
+  </main>
+  <footer><span>© <span data-year>2026</span> Harmony Heights</span><span>Made for the ones who listen closely.</span></footer>
+  <script src="app.js"></script>
+</body>
+</html>
