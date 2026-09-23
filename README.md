@@ -33,10 +33,12 @@ Then visit `http://localhost:8000/harmony-heights.html`.
 
 ## GitHub handoff
 
-This project is ready to publish as `harmony-heights-band-page`. From the project folder, create the new GitHub repository and push the current branch with:
+This project is published at `https://github.com/manzi253-hyber/harmony-heights-band-page`. To reproduce the publish flow from a fresh checkout:
 
 ```bash
-gh repo create harmony-heights-band-page --public --source=. --remote=origin --push
+gh repo create harmony-heights-band-page --public
+git remote add harmony https://github.com/manzi253-hyber/harmony-heights-band-page.git
+git push -u harmony HEAD:main
 ```
 
 If the GitHub account already has a repository with that name, use the existing remote instead:
